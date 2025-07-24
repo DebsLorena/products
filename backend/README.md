@@ -103,7 +103,7 @@ cp .env.example .env
 
 ```env
 # Database
-DATABASE_URL="postgresql://postgres:postgres@localhost:5432/produtos_db"
+DATABASE_URL="postgresql://postgres:postgres@postgres:5432/produtos_db"
 
 # JWT
 JWT_SECRET="your-super-secret-key"
@@ -122,10 +122,10 @@ O projeto inclui um script que automatiza todo o processo de setup e inicializa�
 
 ```bash
 # Torne o script executável (apenas na primeira vez)
-chmod +x start.sh
+chmod +x setup.sh
 
 # Execute o script
-./start.sh
+./setup.sh
 ```
 
 O script irá automaticamente:
