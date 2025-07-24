@@ -25,7 +25,7 @@ Este repositório contém dois projetos integrados:
 ### Backend (API)
 ```bash
 cd backend
-./start.sh  # Script automatizado que configura tudo
+./setup.sh  # Script automatizado que configura tudo
 ```
 API disponível em: http://localhost:3001
 
